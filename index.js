@@ -23,7 +23,7 @@ module.exports = function (locale, affid) {
     // location : '', //  Location to search job offers in. Examples: 'London', 'Paris'. Default: none (Returns all offers from default country)
     sort : 'relevance', // Type of sort. Available values are 'relevance' (default), 'date', and 'salary'.
     start_num : 1, //  Num of first offer returned in entire result space should be >= 1 and <= Number of hits. Default: 1
-    pagesize: 20 // Number of offers returned in one call. Default: 20. Max: 99.
+    pagesize: 20, // Number of offers returned in one call. Default: 20. Max: 99.
     // page: 1, // Current page number (should be >=1). If set, will override start_num. The maxumum number of page is given by $result->pages
     // contracttype: '', // Character code for contract types:<br>
     // *    'p'    - permanent job<br>
